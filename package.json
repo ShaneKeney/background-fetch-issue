@@ -9,7 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "eas:build:develop:ios": "APP_ENV=development eas build --wait --platform=ios --profile=development"
   },
   "jest": {
     "preset": "jest-expo"
